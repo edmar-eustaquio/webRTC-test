@@ -1,0 +1,4 @@
+com/example/webrtc/WebrtcApplication.class
+com/example/webrtc/config/SignalingHandler.class
+com/example/webrtc/config/SignalMessage.class
+com/example/webrtc/config/WebSocketConfig.class
