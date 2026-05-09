@@ -9,6 +9,7 @@
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/UserRequest.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/service/AuthService.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/response/ChatRoomResponse.java
+/Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/entity/UserStatus.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/repository/UserRepository.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/util/ChatRoomUtil.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/config/SecurityConfig.java
@@ -16,14 +17,18 @@
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/entity/ChatRoom.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/WebrtcApplication.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/controller/AuthController.java
+/Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/service/UserStatusService.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/handler/GlobalExceptionHandler.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/RequestCallReq.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/config/CorsConfig.java
+/Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/controller/LogoutController.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/service/UserService.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/util/JwtUtil.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/response/LoginResponse.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/ChatRequest.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/repository/ChatRepository.java
+/Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/repository/UserStatusRepository.java
+/Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/controller/UserStatusController.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/config/WebSocketConfig.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/handler/CallHandler.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/ChatMessageReq.java
@@ -32,6 +37,7 @@
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/ChatMessage.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/LoginRequest.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/config/GlobalConfig.java
+/Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/response/OnlineUserMessage.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/response/CustomUserDetails.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/config/SignalMessage.java
 /Users/edmar/Downloads/webrtc-springboot-maven-backend/src/main/java/com/example/webrtc/request/RegisterRequest.java

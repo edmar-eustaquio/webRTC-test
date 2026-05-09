@@ -19,7 +19,8 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://unspruced-implosively-reta.ngrok-free.dev"
+                                "https://unspruced-implosively-reta.ngrok-free.dev",
+                                "https://webrtc-test-i08f.onrender.com"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
