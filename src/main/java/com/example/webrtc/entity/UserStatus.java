@@ -12,13 +12,16 @@ public class UserStatus {
 
     private boolean online;
     private boolean callIsOngoing;
+    @OneToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     public UserStatus() {
 
     }
 
-    public UserStatus(Long id, boolean online, boolean callIsOngoing) {
-        this.id = id;
+    public UserStatus(User user, boolean online, boolean callIsOngoing) {
+        this.user = user;
         this.online = online;
         this.callIsOngoing = callIsOngoing;
     }

@@ -17,7 +17,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
     List<User> findByIdIn(Set<Long> userIds);
 
     @Query(value = """
-    SELECT u.* FROM users u INNER JOIN user_statuses s ON s.id=u.id AND s.online = 1
+    SELECT u.* FROM users u INNER JOIN user_statuses s ON s.user_id=u.id AND s.online = 1
 """, nativeQuery = true)
     List<User> getAllActiveUsers();
 }

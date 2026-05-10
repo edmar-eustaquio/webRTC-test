@@ -1,7 +1,5 @@
 package com.example.webrtc.response;
 
-import com.example.webrtc.entity.User;
-
 public class OnlineUserMessage{
 
     private String type;

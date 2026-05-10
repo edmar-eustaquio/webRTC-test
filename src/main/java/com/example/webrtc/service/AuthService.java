@@ -3,7 +3,6 @@ package com.example.webrtc.service;
 import com.example.webrtc.entity.User;
 import com.example.webrtc.handler.ChatHandler;
 import com.example.webrtc.repository.UserRepository;
-import com.example.webrtc.request.ChatMessageReq;
 import com.example.webrtc.request.LoginRequest;
 import com.example.webrtc.request.RegisterRequest;
 import com.example.webrtc.response.CustomUserDetails;
@@ -80,7 +79,7 @@ public class AuthService {
                 encodedPassword
         );
         User savedUser = userRepository.save(user);
-        userStatusService.create(savedUser.getId());
+        userStatusService.create(savedUser);
     }
 
     public void logout(Long userId) throws Exception {
